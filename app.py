@@ -1,7 +1,5 @@
 from flask import Flask, request, jsonify
 import os
-import json
-import pandas as pd
 from datetime import datetime
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
